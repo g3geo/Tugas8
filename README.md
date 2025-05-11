@@ -37,4 +37,16 @@ Aplikasi CRUD sederhana menggunakan Laravel untuk mengelola data produk.
 
    ```bash
    composer install
-3. 
+3. Salin file konfigurasi environment dan buat APP_KEY:
+   
+   ```bash
+   cp .env.example .env
+   php artisan key:generate
+4. Jalankan aplikasi di server lokal:
+
+   ```bash
+   php artisan serve
+5. Akses Di Browser:
+
+   ```bash
+   http://127.0.0.1:8000/products
