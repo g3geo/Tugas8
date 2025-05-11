@@ -33,3 +33,8 @@ Aplikasi CRUD sederhana menggunakan Laravel untuk mengelola data produk.
    ```bash
    git clone https://github.com/username/nama-repo.git
    cd nama-repo
+2. Install semua dependency Laravel:
+
+   ```bash
+   composer install
+3. 
